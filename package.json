@@ -2,7 +2,7 @@
   "name": "npm-package-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ysp-sven/npm-package-test/issues"
   },
-  "homepage": "https://github.com/ysp-sven/npm-package-test#readme"
+  "homepage": "https://github.com/ysp-sven/npm-package-test#readme",
+  "dependencies": {
+    "webpack": "^4.17.1"
+  }
 }
